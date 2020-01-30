@@ -1,4 +1,5 @@
 ﻿using Domain.Data;
+using Domain.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,15 +10,11 @@ namespace Command.Consults
 {
     public class SqlComands
     {
-        private readonly DataContext _dataContext;
-        public SqlComands(DataContext dataContext)
-        {
-            _dataContext = dataContext;
-        }
+        private DataContext db = new DataContext();
 
-        public void LoadEstudiante()
+        public IQueryable<Estudiante> LoadEstudiante()
         {
-            _dataContext.Estudiantes.OrderBy(p => p.Description).ToList();
+           return db.Estudiantes.OrderBy(e => e.Nombre);
         }
     }
 }
