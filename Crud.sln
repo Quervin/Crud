@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{F84B9691-0AB0-48F1-A88C-03C097FB991E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica.csproj", "{DA6B6C91-29BA-43AA-A895-B2EE92440D1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F84B9691-0AB0-48F1-A88C-03C097FB991E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F84B9691-0AB0-48F1-A88C-03C097FB991E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F84B9691-0AB0-48F1-A88C-03C097FB991E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6B6C91-29BA-43AA-A895-B2EE92440D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6B6C91-29BA-43AA-A895-B2EE92440D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6B6C91-29BA-43AA-A895-B2EE92440D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6B6C91-29BA-43AA-A895-B2EE92440D1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

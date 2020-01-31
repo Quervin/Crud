@@ -51,8 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Consults\SqlComands.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Show\ShowStudents.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj">
